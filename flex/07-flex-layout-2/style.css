@@ -8,6 +8,11 @@ body {
   height: 72px;
   background: darkmagenta;
   color: white;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  font-size: 48px;
+  font-weight: bolder;
 }
 
 .content {
@@ -48,8 +53,18 @@ a {
   text-decoration: none;
 }
 
+.deck {
+  display: flex;
+  padding: 30px;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
 .card {
   border: 1px solid #eee;
+  width: 280px;
+  height: 200px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+  padding: 10px;
 }
